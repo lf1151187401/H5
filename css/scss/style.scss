@@ -1,0 +1,273 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+// 首页
+.App {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  width: 100%;
+  height: 45px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .left {
+    margin-left: 10px;
+  }
+  .right {
+    margin-right: 10px;
+  }
+}
+.main {
+  flex: 1;
+  height: 100%;
+  background: rgba(212, 211, 211, 0.5);
+  .m-top {
+    width: 100%;
+    height: 228px;
+    background: rgba(255, 157, 0, 0.918);
+    color: #fff;
+    .m-top-top {
+      width: 100%;
+      height: 45px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .m-left {
+        margin-left: 10px;
+        .logo {
+          font-size: 20px;
+        }
+        .font {
+          font-size: 12px;
+          margin-left: 5px;
+        }
+      }
+      .m-right {
+        margin-right: 10px;
+        .icon-geren9 {
+          font-size: 30px;
+        }
+      }
+    }
+    .m-top-bottom {
+      width: 100%;
+      height: 80px;
+      .quan {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        margin: 0 auto;
+        border: 1px solid #fff;
+      }
+    }
+
+    // .m-B-bottom {
+    //   width: 100%;
+    //   height: 100%;
+    //   background: red;
+    //   .senter {
+    //     width: 80%;
+    //     margin-left: 100px;
+    //   }
+    // }
+    .m-B-bottom {
+      text-align: center;
+      font-size: 16px;
+      color: #fff;
+      margin-top: 20px;
+    }
+  }
+  .m-bottom {
+    width: 100%;
+    height: 220px;
+    background: #fff;
+  }
+  table {
+    border-collapse: collapse;
+  }
+  td {
+    border: 1px solid rgba(224, 222, 222, 0.8);
+  }
+  dl {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    dt {
+      padding-bottom: 10px;
+
+      .icon-qian {
+        font-size: 30px;
+        font-weight: 800;
+        color: orange;
+      }
+      .icon-tuijian {
+        font-size: 30px;
+        font-weight: 800;
+        color: orange;
+      }
+      .icon-bangzhu {
+        font-size: 30px;
+        font-weight: 800;
+        color: orange;
+      }
+      .icon-buoumaotubiao26 {
+        font-size: 30px;
+        font-weight: 800;
+        color: orange;
+      }
+      .icon-leimupinleifenleileibie {
+        font-size: 30px;
+        font-weight: 800;
+        color: orange;
+      }
+      .icon-jilu {
+        font-size: 30px;
+        font-weight: 800;
+        color: orange;
+      }
+      .icon-xiugai {
+        font-size: 30px;
+        font-weight: 800;
+        color: orange;
+      }
+      .icon-tuichu {
+        font-size: 30px;
+        font-weight: 800;
+        color: orange;
+      }
+    }
+  }
+}
+
+.footer {
+  width: 100%;
+  height: 45px;
+  display: flex;
+  text-align: center;
+  .home {
+    flex: 1;
+    .icon-shouye {
+      font-size: 25px;
+    }
+  }
+  .mine {
+    flex: 1;
+    .icon-geren9 {
+      font-size: 25px;
+    }
+  }
+  .text {
+    font-size: 13px;
+  }
+}
+.active {
+  color: orange;
+}
+
+//注册
+.logon {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.l-header {
+  width: 100%;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .left {
+    margin-left: 10px;
+  }
+  .right {
+    margin-right: 10px;
+  }
+}
+.l-m-top {
+  width: 100%;
+  height: 45px;
+  background: orange;
+  line-height: 45px;
+  .l-logo {
+    font-size: 22px;
+    color: #fff;
+    margin-left: 5px;
+  }
+  .l-font {
+    font-size: 15px;
+    margin-left: 5px;
+    color: #fff;
+  }
+}
+.input-box {
+  width: 100%;
+  height: 300px;
+  margin-top:10px;
+  position: relative;
+  .user,.xx,.pwd {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    border-bottom:1px solid #ccc
+  }
+  .u-left {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 0.5px solid #ccc;
+    background: #fff;
+    span {
+      font-size: 25px;
+    }
+  }
+  .u-right {
+    flex: 9;
+    input {
+      width: 100%;
+      height: 100%;
+      background: #fff;
+      outline: none;
+      border:none
+    }
+  }
+}
+.button{
+  width:90%;
+  height: 35px;
+  margin:30px 5%;
+  border:none;
+  background: orange;
+  color:#fff;
+  outline: none;
+  border-radius: 5px;
+}
+.erweima{
+  width:100px;
+  height: 30px;
+  background: #ccc;
+  position: absolute;
+  top:46px;
+  right:15px;
+  text-align: center;
+  border-radius: 5px;
+  font-size:13px;
+  line-height: 30px;
+  color:#fff;
+}
